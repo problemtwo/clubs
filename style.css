@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+html,body
+{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	background:#fff;
+}
+.section
+{
+	float:left;
+	width:100%;
+	height:50%;
+}
+#title-section{background:#c77;}
+#title
+{
+	width:100%;
+	text-align:center;
+	position:absolute;
+	font-family:'Montserrat';
+	font-size:200%;
+	color:#fff;
+
+	-moz-user-select:none;
+	user-select:none;
+}
+#first-name,#last-initial
+{
+	position:absolute;
+	top:13vh;
+	left:30vw;
+	width:23vw;
+	height:5vh;
+	font-family:'Montserrat';
+	resize:none;
+	text-align:center;
+	font-size:150%;
+	line-height:5vh;
+	color:#3c3c3e;
+	border:0;
+	outline:0;
+}
+#last-initial
+{
+	left:55vw;
+	width:15vw;
+}
+#first-name::-moz-selection
+{
+	background:#3c3c3e;
+	color:#fff;
+}
+#first-name::selection
+{
+	background:#3c3c3e;
+	color:#fff;
+}
+#last-initial::-moz-selection
+{
+	background:#3c3c3e;
+	color:#fff;
+}
+#last-initial::selection
+{
+	background:#3c3c3e;
+	color:#fff;
+}
+#search
+{
+	position:absolute;
+	top:25vh;
+	left:40vw;
+	width:20vw;
+	height:10vh;
+	font-family:'Montserrat';
+	font-size:150%;
+	background:#fff;
+	color:#3c3c3e;
+	border:0;
+	outline:0;
+
+	-moz-user-select:none;
+	user-select:none;
+}
+#clubs
+{
+	position:absolute;
+	top:50vh;
+	left:0;
+	width:100%;
+	height:50%;
+}
+#clubs>.club
+{
+	float:left;
+	margin-left:2.5vw;
+	margin-right:2.5vw;
+	margin-top:2.5vh;
+	margin-bottom:2.5vh;
+	padding-left:2.5vw;
+	padding-right:2.5vw;
+	padding-top:2.5vh;
+	padding-bottom:2.5vh;
+	width:15vw;
+	height:15vh;
+	background:#77c;
+	border-radius:15px;
+}
+#clubs>.club>*
+{
+	width:100%;
+	height:50%;
+	text-align:center;
+	font-family:'Montserrat';
+	color:#fff;
+	font-weight:normal;
+}
+.club-name{font-size:175%;}
+.club-time{font-size:125%;}
+#clubs>.club>*::-moz-selection
+{
+	background:#3c3c3e;
+}
+#clubs>.club>*::selection
+{
+	background:#3c3c3e;
+}
